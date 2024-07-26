@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interno</title>
+  <!--Css -->
+  <link rel="stylesheet" href="output.css" />
+  <!--icons  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" />
+  <!--fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Diplomata+SC&family=Ewert&family=Fredericka+the+Great&family=Geostar&family=Geostar+Fill&family=IM+Fell+DW+Pica+SC&family=Jacques+Francois+Shadow&family=Jost:ital,wght@0,100..900;1,100..900&family=Just+Me+Again+Down+Here&family=Kolker+Brush&family=Kranky&family=Libre+Barcode+128&family=Modak&family=Monsieur+La+Doulaise&family=Nosifer&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rye&family=Tilt+Prism&display=swap"
+    rel="stylesheet" />
+  <!-- swiper css -->
+  <link rel="stylesheet" href='css/swiper-bundle.min.css' />
+</head>
+
+<body class='bg-gray-100'>
+<!-- header -->
+<header class="sticky top-0 h-[60px] shadow-xl z-30 bg-white">
+  <div class="container mx-auto flex justify-between h-full items-center">
+    <!-- logo -->
+    <a href="#">
+      <img src="https://via.placeholder.com/100" alt="Logo">
+    </a>
+    <!-- nav -->
+    <nav>
+      <!-- nav mobile trigger -->
+      <div class="cursor-pointer lg:hidden" id="nav_trigger_btn">
+        <i class="fas fa-bars text-4xl text-primary"></i>
+      </div>
+      <ul class="hidden sm:flex fixed sm:bg-white overflow-hidden border-t left-0 right-0 flex flex-col gap-4 text-center pb-5 lg:flex-row lg:p-0 lg:top-0 lg:border-none lg:h-full transition-all duration-300 lg:relative" id="nav_menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Our Work</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+  <!-- page wrapper -->
+  <main class="max-w-[1920px] mx-auto bg-white overflow-hidden">
+    <!-- hero -->
+    <section
+      class="hero h-[630px] xl:h-[490px] bg-hero bg-center lg:bg-cover bg-no-repeat bg-fixed xl:rounded-bl-[220px] relative z-20">
+      <div class="container mx-auto h-full flex items-center lg:justify-center xl:justify-start">
+        <!-- Text -->
+        <div class="hero-text w-[567px] flex flex-col items-center text-center xl:text-left lg:items-start">
+          <h1 class="h1">Let Your Home Be Unique</h1>
+          <p class=" mb-8">There are many variation of the passeges of the lorem ipsum from available,variations of the
+            passages.</p>
+          <!-- btn -->
+          <button class="btn btn-primary ml-7">Get free estimation <i class="ri-arrow-right-line"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- steps -->
+    <section class="mt-[50px] xl:mt-[50px] relative z-20">
+      <div class="container mx-auto">
+        <!-- grid items -->
+        <div class="grid grid-cols-1 xl:grid-cols-3 gap-12 ">
+          <!-- step 1 -->
+          <div class="steps__step text-center">
+            <div class="mb-4">
+              <i class="ri-compasses-2-line text-5xl text-accent"></i>
+            </div>
+            <h3 class="h3 mb-5 ">Project Plannning</h3>
+            <p class="mb-5 max-w-md mx-auto ">There are many variations of the passage lorem ipsum from
+              available,majority</p>
+            <a href="#">Read more</a>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+
+          <!-- step 2 -->
+          <div class="steps__step text-center">
+            <div class="mb-4">
+              <i class="ri-magic-line text-5xl text-accent"></i>
+            </div>
+            <h3 class="h3 mb-5 ">Gaining Materials</h3>
+            <p class="mb-5 max-w-md mx-auto ">There are many variations of the passage lorem ipsum from
+              available,majority</p>
+            <a href="#">Read more</a>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+
+          <!-- step 3 -->
+          <div class="steps__step text-center">
+            <div class="mb-4">
+              <i class="ri-tools-line text-5xl text-accent"></i>
+            </div>
+            <h3 class="h3 mb-5 ">Project Execution</h3>
+            <p class="mb-5 max-w-md mx-auto ">There are many variations of the passage lorem ipsum from
+              available,majority</p>
+            <a href="#">Read more</a>
+            <i class="ri-arrow-right-line"></i>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section class="about flex lg:flex-row flex-col w-[1100px] mx-auto justify-between mt-[30px]">
+      <!-- text -->
+      <div>
+        <div>
+          <h1 class="text-5xl w-[450px] mb-5 font-semibold ml-[100px] lg:ml-0">We Create The Art Of Stylish Living
+            Stylishly</h1>
+          <p class="w-[400px] ml-[100px] lg:ml-0">It is a long established fact that a reader will be distracted by the
+            of readable content of a page when lookings at its layout the points of using that it has more or less
+            normal</p>
+          <!-- phone -->
+          <div class="text-left flex gap-x-2 items-center ml-[100px] lg:ml-0">
+            <div class="bg-accent/15 w-[93px] h-[93px] rounded-full flex justify-center items-center">
+              <i class="ri-phone-fill text-accent text-4xl"></i>
+            </div>
+            <div>
+              <div class="text-2xl font-bold">0987 654 321</div>
+              <div>Call Us Anytime</div>
+
+            </div>
+          </div> <!-- btn -->
+          <div class="flex xl:justify-start gap-4 p-[20px] ml-[80px] lg:ml-[-20px]">
+            <button class="btn btn-primary">Get free estimation <i class="ri-arrow-right-line"></i></button>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- image -->
+      <div>
+        <div><img src="../assets/about/img.png" class="w-[450px]  ml-[110px] lg:ml-0" /></div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section class="bg-accent-secondary lg:w-[950px] rounded-[50px] mx-auto">
+      <div class="relative w-full mt-24 py-5 pb-3 mx-auto overflow-hidden">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="h-full w-[300px] mx-auto object-cover rounded-[50px]" src="/assets/news/01.png" alt="">
+              <div class="absolute top-0 left-0 h-full w-full flex">
+                <h2 class="text-4xl font-bold text-black my-auto w-full text-center px-20">Heading 1</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img class="h-full w-[300px] mx-auto object-cover rounded-[50px]" src="/assets/news/02.png" alt="">
+              <div class="absolute top-0 left-0 h-full w-full flex">
+                <h2 class="text-4xl font-bold text-black my-auto w-full text-center px-20">Heading 2</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img class="h-full w-[300px] mx-auto object-cover rounded-[50px]" src="/assets/news/03.png" alt="">
+              <div class="absolute top-0 left-0 h-full w-full flex">
+                <h2 class="text-4xl font-bold text-black my-auto w-full text-center px-20">Heading 3</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img class="h-full w-[300px] mx-auto object-cover rounded-[50px]" src="/assets/news/01.png" alt="">
+              <div class="absolute top-0 left-0 h-full w-full flex">
+                <h2 class="text-4xl font-bold text-black my-auto w-full text-center px-20">Heading 4</h2>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img class="h-full w-[300px] mx-auto object-cover rounded-[50px]" src="/assets/news/02.png" alt="">
+              <div class="absolute top-0 left-0 h-full w-full flex">
+                <h2 class="text-4xl font-bold text-black my-auto w-full text-center px-20">Heading 5</h2>
+              </div>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- brands -->
+    <section class="brands mt-[50px] xl:mt-[100px] relative z-20">
+      <div class="container mx-auto">
+        <div class="flex flex-col xl:flex-row justify-between items-center gap-12">
+          <img class="brands__img" src="/assets/brands/01.svg" alt="" width="200px">
+          <img class="brands__img" src="/assets/brands/02.svg" alt="">
+          <img class="brands__img" src="/assets/brands/03.svg" alt="">
+          <img class="brands__img" src="/assets/brands/04.svg" alt="">
+          <img class="brands__img" src="/assets/brands/05.svg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- work -->
+    <section class="work mt-[70px] xl:mt-[70px] relative z-20">
+      <div class="container mx-auto xl:px-0">
+        <!-- text -->
+        <div class="text-center">
+          <h2 class="work__title h2 mb-4">Follow Our projects</h2>
+          <p class="work__subtitle max-w-3xl mx-auto mb-0">It is a long established fact that a reader will be
+            distracted by
+            the of readable content of page lookings at its layouts points.</p>
+        </div>
+        <!-- grid -->
+        <div class="work__grid grid grid-cols-1 mt-[20px] xl:grid-cols-2 gap-1 ml-[250px]">
+          <!-- item 1 -->
+          <div class="w-full mx-auto xl:mr-0">
+            <img class="mb-1" src="/assets/work/01.png" alt="" width="200px">
+            <!-- text -->
+            <div class="flex items-center w-full">
+              <div>
+                <h3 class="h3">
+                  Modern Kitchen
+                </h3>
+                <p>Decor/Architechure</p>
+              </div>
+              <!-- button -->
+              <div>
+                <button class="bg-accent-seconadry hover:bg-accent/20 h-[50px] rounded-full">
+                  <i class="ri-arrow-right-s-line text-3xl text-primary pl-1">
+                  </i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- item 2 -->
+          <div class="w-full mx-auto xl:mr-0">
+            <img class="mb-1" src="/assets/work/02.png" alt="" width="200px">
+            <!-- text -->
+            <div class="flex items-center w-full">
+              <div>
+                <h3 class="h3">
+                  Modern Kitchen
+                </h3>
+                <p>Decor/Architechure</p>
+              </div>
+              <!-- button -->
+              <div>
+                <button class="bg-accent-seconadry hover:bg-accent/20 h-[50px] rounded-full">
+                  <i class="ri-arrow-right-s-line text-3xl text-primary pl-1">
+                  </i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- item 3 -->
+          <div class="w-full mx-auto xl:mr-0">
+            <img class="mb-1" src="/assets/work/03.png" alt="" width="200px">
+            <!-- text -->
+            <div class="flex items-center w-full">
+              <div>
+                <h3 class="h3">
+                  Modern Kitchen
+                </h3>
+                <p>Decor/Architechure</p>
+              </div>
+              <!-- button -->
+              <div>
+                <button class="bg-accent-seconadry hover:bg-accent/20 h-[50px] rounded-full">
+                  <i class="ri-arrow-right-s-line text-3xl text-primary pl-1">
+                  </i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- item 4 -->
+          <div class="w-full mx-auto xl:mr-0">
+            <img class="mb-1" src="/assets/work/04.png" alt="" width="200px">
+            <!-- text -->
+            <div class="flex items-center w-full">
+              <div>
+                <h4 class="h4">
+                  Modern Kitchen
+                </h4>
+                <p>Decor/Architechure</p>
+              </div>
+              <!-- button -->
+              <div>
+                <button class="bg-accent-seconadry hover:bg-accent/20 h-[50px] rounded-full">
+                  <i class="ri-arrow-right-s-line text-3xl text-primary pl-1">
+                  </i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- stats -->
+    <section class="stats mt-[10px] xl:mt-[50px] relative z-20 bg-accent-secondary py-[80px] xl:py-[40px]">
+      <div class="container mx-auto">
+        <!-- grid -->
+        <div class="grid grid-cols-1 xl:grid-cols-4 gap-12">
+          <!-- grid item -->
+          <div class="stats__item text-center xl:border-r xl:border-accent">
+            <h3 class="h1 font-primary text-accent">12</h3>
+            <p>Years of experience</p>
+          </div>
+
+          <!-- grid item -->
+          <div class="stats__item text-center xl:border-r xl:border-accent">
+            <h3 class="h1 font-primary text-accent">85</h3>
+            <p>Project completed</p>
+          </div>
+          <!-- grid item -->
+          <div class="stats__item text-center xl:border-r xl:border-accent">
+            <h3 class="h1 font-primary text-accent">15</h3>
+            <p>Active Projects</p>
+          </div>
+          <!-- grid item -->
+          <div class="stats__item text-center xl:border-r xl:border-accent">
+            <h3 class="h1 font-primary text-accent">95</h3>
+            <p>Happy customers</p>
+          </div>
+
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <!--articles and news -->
+    <section class="news mt-[20px] xl:mt-[50px] relative z-20">
+      <div class="container mx-auto px-0">
+        <!-- text -->
+        <div class="max-w-[810px] mx-auto text-center mb-[52px]"></div>
+        <h2 class="news__title h2 mb-1 text-center">Articles & News</h2>
+        <p class="news__subtitle w-[800px] mx-auto text-center">It is a long established fact that a reader will be
+          distracted by the of readable
+          content of a page when lookings at its layouts the points of using.
+        </p>
+        <!-- grid -->
+        <div class="news__grid grid grid-col-1 grid-cols-3 gap-[27px]">
+          <!-- grid item 1-->
+          <div
+            class="news__item w-full max-w-[300px] h-[520px]border order-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0">
+            <img class="mb-2" src="/assets/news/01.png" alt="" />
+            <div class="flex flex-col gap-[30px]"></div>
+            <h5 class="h5">Let's Get Solution For Building Construction Work</h5>
+            <div class="flex items-center gap-x-2">
+              <p class="text-base">27 June,2024</p>
+            <div>  <button class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
+              <i class="ri-arrow-right-s-line text-3xl text-primary "></i></div>
+              </button>
+            </div>
+          </div>
+          <!-- grid item 2-->
+          <div
+            class="news__item w-full max-w-[300px] h-[520px]border order-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0">
+            <img class="mb-2" src="/assets/news/02.png" alt="" />
+            <div class="flex flex-col gap-[30px]"></div>
+            <h5 class="h5">Let's Get Solution For Building Construction Work</h5>
+            <div class="flex items-center gap-x-2">
+              <p class="text-base">27 June,2024</p>
+            <div>  <button class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
+              <i class="ri-arrow-right-s-line text-3xl text-primary "></i></div>
+              </button>
+            </div>
+          </div>
+          <!-- grid item 3-->
+          <div
+            class="news__item w-full max-w-[300px] h-[520px]border order-primary/20 rounded-[62px] p-[20px] hover:bg-accent-secondary transition-all group cursor-pointer mx-auto xl:mx-0">
+            <img class="mb-2" src="/assets/news/03.png" alt="" />
+            <div class="flex flex-col gap-[30px]"></div>
+            <h5 class="h5">Let's Get Solution For Building Construction Work</h5>
+            <div class="flex items-center gap-x-2">
+              <p class="text-base">27 June,2024</p>
+            <div>  <button class="bg-accent-secondary w-[52px] h-[52px] rounded-full group-hover:bg-white transition-all">
+              <i class="ri-arrow-right-s-line text-3xl text-primary "></i></div>
+              </button>
+            </div>
+          </div>
+      
+
+        </div>
+      </div>
+    </section>
+
+    <!-- contact  -->
+    <section class="contact mt-[50px] xl:mt-[70px] relative z-20">
+      <div class="contact__container container mx-auto bg-primary max-w-[1000px] sm-rounded-[70px] py-[40px]">
+        <div class="contact__text max-w-[640px] mx-auto text-center">
+          <h2 class="h2 text-white mb-4">Do you want to join interno?</h2>
+          <p class="text-white mb-8 max-w-sm xl:max-w-none mx-auto">It is a long established fact that known all over
+            the world.</p>
+          <button class="btn btn-accent mx-auto">Connect with us <i
+              class="ri-arrow-right-line text-primary"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer mt-[70px] xl:mt-[100px] relative z-20 ml-[100px]">
+      <div class="container mx-auto px-0">
+        <div class="flex flex-col xl:flex-row xl:gap-[100px] xl:mb-[30px]">
+          <!-- logo -->
+          <div class="footer__item w-full max-w-[400px] mx-auto  text-center xl:text-left">
+            <a class="flex justify-center xl:justify-start mb-8" href="">
+              <img src="/assets/logo.svg" alt="">
+            </a>
+            <p class="mb-2 text-xl text-center">It is a long established fact that a reader will be distracted lookings.
+            </p>
+            <!-- socials -->
+            <ul class="text-primary flex gap-[54px] justify-center xl:justify-start ml-[70px]">
+              <li>
+                <a href="">
+                  <i class="ri-facebook-box-fill"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="ri-twitter-fill"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="ri-linkedin-box-fill"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="ri-instagram-fill"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        <!-- pages -->
+          <div class="flex flex-col flex-1  xl:flex-row text-center xl:text-left gap-12 xl:gap-[100px] xl:justify-end">
+            <div class="footer__item">
+              <h3 class="h3">Pages</h3>
+              <ul class="flex flex-col gap-4">
+                <li><a href="">About Us</a></li>
+                <li><a href="">Testimonials</a></li>
+                <li><a href="">Our Work</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+        <!-- services -->
+            <div class="footer__item">
+              <h3 class="h3">Services</h3>
+              <ul class="flex flex-col gap-4">
+                <li><a href="">Kitchen</a></li>
+                <li><a href="">Living Area</a></li>
+                <li><a href="">Bathroom </a></li>
+                <li><a href="">Bedroom</a></li>
+                <li><a href="">Hall</a></li>
+              </ul>
+            </div>
+            <!-- contact -->
+            <div class="footer__item max-w-[260px] mx-auto xl:mx-0" ]>
+              <h3 class="h3">Contact</h3>
+              <div class="flex flex-col gap-6 text-[20px]">
+                <p>55 East Birchwood Ave. Brooklyn,New York 11201</p>
+                <p>contact@interno.com</p>
+                <p>(123) 456 - 7890</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- copyright -->
+      <p class="footer__copyright text-center text-lg py-10 bg-white xl:border-t">Copyright &copy; Interno. All rights
+        reserved</p>
+    </footer>
+
+  </main>
+  <!-- main js -->
+  <script src="/js/main.js"></script>
+  <!-- scroll reveal js -->
+  <scrip src='/js/scrollreveal.min.js'>
+    </script>
+    <!-- Swiper -->
+    <script src='/js/swiper-bundle.min.js'></script>
+</body>
+
+</html>
